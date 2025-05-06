@@ -1,0 +1,32 @@
+def main():
+nome = ""
+idade = 0
+opcao = 0 
+while True:
+    print ("**MENU PRINCIPAL**")
+    print ("1.Cadastrar usuário")
+    print ("2.Ver dados cadastrados")
+    print ("3.Sair do sistema")
+    print ("*******************")
+    opcao=int(input("Escolha uma opção"))
+    if opcao == 1:
+        nome=input("Digite seu nome")
+        idade=int(input("Digite sua idade"))
+        print("Dados cadastrados com suscesso!")
+elif opcao == 2:
+    if nome == "" or idade == 0
+        print("Nenhum dados cadastrados")
+    else:
+        print("Dados cadastrados com sucesso!")
+        print(f"Nome:{nome}")
+        print(f"Idade:{idade}")
+elif opcao == 3:
+    print("Encerrando o sistema...")
+    break
+else:
+    print("Opção Inválida")
+
+
+
+if _name_=="_main_":
+    main()
