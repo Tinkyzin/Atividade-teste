@@ -12,6 +12,7 @@ while True:
     if opcao == 1:
         nome=input("Digite seu nome")
         idade=int(input("Digite sua idade"))
+        telefone=int(input("Digite seu Número de telefone")
         print("Dados cadastrados com suscesso!")
 elif opcao == 2:
     if nome == "" or idade == 0
@@ -20,6 +21,7 @@ elif opcao == 2:
         print("Dados cadastrados com sucesso!")
         print(f"Nome:{nome}")
         print(f"Idade:{idade}")
+        print(f"Telefone:{telefone}")
 elif opcao == 3:
     print("Encerrando o sistema...")
     break
